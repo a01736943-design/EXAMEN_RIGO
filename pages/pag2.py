@@ -38,7 +38,6 @@ def filtros(
 MAN, CATEG = barra(df)
 df_filtrado = filtros(df, MAN, CATEG)
 
-st.subheader("Avance vs Presupuesto k$")
 
 def grafica(df_filtrado):
     fig = px.scatter(
